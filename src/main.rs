@@ -29,7 +29,7 @@ impl Component for CounterComponent {
         html! {
             <div class="container">
                 <p>{ self.count }</p>
-                <button onclick={link.callback(|_| Msg::AddOne)}>{ "+1" }</button>
+                <button onclick={link.callback(|_| Msg::AddOne)}>{ "+1!" }</button>
             </div>
         }
     }
